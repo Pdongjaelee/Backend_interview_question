@@ -80,10 +80,13 @@
 
 ## 데이터베이스
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary>정규화란 무엇이고 대표적인 장점과 단점은 무엇이 있을까요?</summary>
 <div markdown="1">
 
-안녕
+<p>정규화는 일정한 규칙에 따라 테이블 간에 중복된 데이터를 허용하지 않는 것입니다.</p>
+<p>DB를 정규화함으로써 데이터의 중복을 막을 수 있습니다.</p>
+<p>데이터의 일관성과  DB의 저장 용량 또한 줄일 수 있는 효율성 및 확장성을 보장할 수 있습니다.</p>
+<p>하지만 정규화를 하면 테이블 분해로 인해 많은 조인 연산이 발생하므로 응답 시간이 느려집니다.</p>
 
 </div>
 </details>
@@ -116,10 +119,21 @@
 
 ## 네트워크
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary> 브라우저에 google.com 을 치면 일어나는 일련의 일들을 설명해주세요. </summary>
 <div markdown="1">
 
-안녕
+<p>처음에 www.google.com을 브라우저 주소창에 입력하면,</p>
+<ui>
+<li>우리가 쓰는 브라우저가 URL을 Parsing(주소 해석)해서 HTTP Request Message를 만들고 os에 전송 요청을 합니다. </li>
+<p>이 때, 우리의 컴퓨터는 도메인 이름을 이해하지 못하기 떄문에 Domain으로 요청이 아닌 DNS를 통해 ip 주소를 찾습니다.</p>
+<li>브라우저는 캐싱된 DNS 기록을 체크합니다.</li>
+<p>요청한 URL이 캐시에 없으면, ISP(nternet Service Provider)의 DNS 서버에서 다른 DNS 서버를 DNS Query를 통해 검색하여 IP 주소를 찾습니다.</p>
+<li>ip 주소를 찾으면 브라우저가 서버와 TCP connection을 한다.</li>
+<p>TCP/IP three-way handshake라는 프로세스를 통해서 클라이언트와 서버간 connection이 이뤄지게 되는 것입니다.</p>
+<li>이제 Browser가 웹서버에 HTTP 요청을 합니다.</li>
+<li>서버는 가지고 있는 웹서버에서 브라우저로부터 온 요청을 읽고 response를 생성합니다.</li>
+<li>서버는 요청받은 웹페이지, 상태코드, 쿠키 등이 포함되어 있는 HTTP Response를 보냅니다.</li>
+<li>브라우저가 HTML content를 보여주면 www.google.com 웹페이지를 보여주는 것입니다.</li>
 
 </div>
 </details>
