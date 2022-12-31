@@ -90,7 +90,60 @@
 
 </div>
 </details>
+ 
+<details>
+<summary>모든 요소에 인덱스를 걸지 않는 이유에 대해 설명해주세요.</summary>
+<div markdown="1">
+<p>모든 요소에 인덱스를 걸면 데이터를 찾을 때는 빠를 수 있습니다.</p>
+<p>하지만 다양한 단점이 있습니다.</p>
+<p>데이터가 변경될 때마다 이 데이터를 갱신해야 합니다.</p>
+<p>인덱싱 데이터도 별도로 관리해야 하므로 물리적 저장소와 메모리 사용량이 급증하게 됩니다.</p>
+<p>특히 CRUD의 요소 중 R찾기를 제외하고 나머지 요소들의 성능이 극단적으로 저하됩니다.</p>  
+</div>
+</details> 
+ 
+ 
+<details>
+<summary>이상현상에 대해 설명해주세요.</summary>
+<div markdown="1">
 
+
+</div>
+</details> 
+ 
+<details>
+<summary>DB를 사용하는 이유를 간단하게 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+ 
+<details>
+<summary>SQL, NoSQL 차이에 대해 설명해 주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>   
+ 
+<details>
+<summary>Redis, Memcached 의 차이에 대해 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>   
+
+<details>
+<summary>Redis의 작동원리 및 프로젝트에서 어떻게 사용했는지 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>    
+ 
+ 
 <br>
 
 ## JPA
