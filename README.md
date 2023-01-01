@@ -58,12 +58,56 @@
 </details>
 
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary>Annotation의 개념과 예시를 들어 설명해 주실 수 있을까요? </summary>
+<div markdown="1">
+<p>Annotation은 클래스와 메서드에 추가하여 각각 다양한 기능을 부여하는 역할을 합니다.</p>
+<p>스프링의 mvc패턴을 구현할 때 대표적인 Annotation인 @Repository @Controller @Service 가 있습니다.</p>
+<p>스프링에서 각각 클래스에 Repository, Controller, Service 역할을 명시해줍니다.</p>  
+</div>
+</details>
+  
+<details>
+<summary>오버로딩과 오버라이딩 차이에 대해 설명해 주실 수 있을까요? </summary>
 <div markdown="1">
 
 </div>
-</details>
+</details> 
 
+<details>
+<summary>오버로딩과 오버라이딩은 어떤 상황에서 사용하나요? </summary>
+<div markdown="1">
+
+</div>
+</details> 
+ 
+<details>
+<summary>객체지향(oop)란 무엇인지 설명해주세요</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary>객체지향(oop)의 solid 라는 개념에 대해 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>   
+
+<details>
+<summary>추상 클래스와 인터페이스 차이에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>    
+
+<details>
+<summary>접근제어자에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>     
+ 
 <br>
 
 ## Spring
