@@ -69,7 +69,10 @@
 <details>
 <summary>오버로딩과 오버라이딩 차이에 대해 설명해 주실 수 있을까요? </summary>
 <div markdown="1">
-
+<p>Override는 상속과 관련된 개념으로 부모 클래스의 메소드를 재 정의합니다.</p>
+<p>Overload는 이름이 비슷하지만 상속과는 관련 없는 내용입니다.</p>
+<p>Overload는 같은 메소드라도 매개변수만 다르면 정의하고 사용할 수 있는 개념입니다.</p>
+<p>Overload는 다른 기능을 하는 메소드를 하나의 이름으로 사용하기 위해 쓰는 개념입니다.</p>
 </div>
 </details> 
 
@@ -104,7 +107,11 @@
 <details>
 <summary>접근제어자에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
+<p>접근 제어자는 클래스, 멤버변수, 메서드, 생성자 등에 대한 접근을 제한하는 역할을 합니다.</p>
+<p>접근 제어자는 public, protected, default, private가 있습니다.</p>
+<p>private는 해당 클래스에서만 접근이 가능하고, default는 해당 패키지까지, protected는 상속한 클래스까지 접근이 가능합니다.</p>
+<p>public는 전체 영역에서 접근이 가능합니다.</p>
+ 
 </div>
 </details>     
  
