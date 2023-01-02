@@ -219,14 +219,44 @@
 
 ## JPA
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary>JPA에 대해서 설명해 주세요.</summary>
 <div markdown="1">
 
 안녕
 
 </div>
 </details>
+ 
+<details>
+<summary>JPA는 언제 필요하고 언제 필요하지 않은지 설명해주실 수 있을까요?</summary>
+<div markdown="1">
 
+JPA를 사용하지 않는다면 DB의 데이터 CRUD를 하나하나 쿼리를 작성해서 코딩해야 합니다.
+JPA를 사용함으로 각각의 해당 CRUD에 맞는 쿼리를 다시 작성할 필요가 없어 필드가 추가되거나 수정할 때 유지 보수와 생산성을 높일 수 있습니다.
+하지만 데이터 통계처리나 복잡한 조회가 필요한 상황에는 JPA보다는 SQL을 사용하는 것이 적합합니다.
+JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어려우며 만들었다 해도 오타율이 높기 때문에 위와 같은 상황에는 필요하지 않습니다.
+
+</div>
+</details> 
+
+<details>
+<summary>JPA의 더티 체킹이란 무엇인가요?</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details> 
+
+ <details>
+<summary>토글 접기/펼치기</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details> 
+ 
 <br>
 
 ## 운영체제
