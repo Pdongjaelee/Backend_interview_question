@@ -139,6 +139,15 @@
 
 ## Spring
 <details>
+<summary>DI란 무엇인지 설명해주시고 어떤 장단점이 있는지 설명해주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
+
+<details>
 <summary>토글 접기/펼치기</summary>
 <div markdown="1">
 
@@ -248,8 +257,8 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </div>
 </details> 
 
- <details>
-<summary>토글 접기/펼치기</summary>
+<details>
+<summary>ORM에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
 안녕
