@@ -421,4 +421,30 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 </div>
 </details>  
+
+<details>
+<summary>프로젝트 서비스 아키텍쳐 구성에 대해 설명해 주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>   
  
+<details>
+<summary>QueryDSL을 사용하셨는데 어떤 상황에서 사용하셨나요?</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
+ 
+<details>
+<summary>Redis 캐싱처리를 하셨는데 어떤 상황에서 사용하셨나요?</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>    
