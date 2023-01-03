@@ -425,9 +425,10 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <details>
 <summary>프로젝트 서비스 아키텍쳐 구성에 대해 설명해 주세요.</summary>
 <div markdown="1">
-
-안녕
-
+<p>저희 프로젝트는 크게 domain 패키지와 grobal 패키지로 구성했습니다.</p>
+<p>domain에는 view에서 보여지는 메인페이지, 상세페이지 등 각각의 페이지들로 구성되어 있습니다.</p>
+<p>각 페이지 패키지 안에 페이지 기능을 구현하는데 필요한 controller, dto, service 파일이 구성되어 있습니다.</p>
+<p>grobal에는 페이지 단위가 아닌 전역적으로 처리해야 할 예외처리나 보안에 필요한 security, jwt, 성능을 개선할 캐싱처리, querydsl로 구성되어 있습니다.</p>
 </div>
 </details>   
  
