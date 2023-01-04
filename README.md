@@ -230,9 +230,10 @@
 <details>
 <summary>JPA에 대해서 설명해 주세요.</summary>
 <div markdown="1">
-
-안녕
-
+<p>JPA는 JAVA에서 ORM(Object-Relational Mapping) 기술 표준으로 사용되는 인터페이스입니다.</p>
+<p>실제적으로 구현된것이 아닌 구현된 클래스와 매핑을 해주기 위해 사용되는 프레임워크입니다.</p>
+<p>JPA를 사용하지 않는다면 DB의 데이터 CRUD를 하나하나 쿼리를 작성해서 코딩해야 합니다.</p>
+<p>JPA를 사용함으로 각각의 해당 CRUD에 맞는 쿼리를 다시 작성할 필요가 없어 필드가 추가되거나 수정할 때 유지 보수와 생산성을 높일 수 있습니다.</p>
 </div>
 </details>
  
