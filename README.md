@@ -439,6 +439,8 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <p>domain에는 view에서 보여지는 메인페이지, 상세페이지 등 각각의 페이지들로 구성되어 있습니다.</p>
 <p>각 페이지 패키지 안에 페이지 기능을 구현하는데 필요한 controller, dto, service 파일이 구성되어 있습니다.</p>
 <p>grobal에는 페이지 단위가 아닌 전역적으로 처리해야 할 예외처리나 보안에 필요한 security, jwt, 성능을 개선할 캐싱처리, querydsl로 구성되어 있습니다.</p>
+
+<li>(추가)도메인 주도 개발(DDD) -커스텀해서 크게 도메인/글로벌로 나눴다.</li>
 </div>
 </details>   
  
@@ -520,4 +522,57 @@ CORS는 교차출처 리소스 공유로 출처가 다른 자원들을 공유할
 </div>
 </details>  
  
+<details>
+<summary>프로젝트 기술적 문제(트러블슈팅)가 있었나요?</summary>
+<div markdown="1">
+
+필터 기능을 구현하려 할때 기존에 JPA만을 가지고 구현을 하려했으나 복잡한 조건을 동적 처리하는 기능이다 보니
+JPA로는 코드가 너무 길고 복잡해지는 문제가 생겼습니다.
+<li>(추가) JPA란?<li>
+<li>(추가) ORM란?<li>
+<li>(추가) 더티 체킹?<li>
+
+<br>
+
+EC2(Ubuntu)에서 default 메모리 설정으로 무중단 배포를 적용하니 신버전 배포 시 서버가 다운
+
+EC2 인스턴스에서 확인해보니 인스턴스 상태가 faile 이어서 EC2콘솔에서 인스턴스 로그를 보니 memory kill이 떴습니다.
+1G가 넘는 spring boot 파일을 두개를 실행시키다 보니 default 메모리 설정이 감당하지 못해 서버가 다운됐습니다.
+swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운되지 않게 해결했습니다.
+<li>(추가) swap메모리?</li>
+<li>ci/cd란? - 어떤 툴들을 사용하셨나요? / 왜 사용했나요? / 대안은 없었나요?</li>
+<li>어떤 방식을 쓰셨나요? 왜 사용했나요?</li>
+
+
+</div>
+</details>   
  
+<details>
+<summary>프로젝트에서 성능을 개선한 경험이 있나요?</summary>
+<div markdown="1">
+태그 조회할 때 redis 성능 개선 수치 대략적으로 설명
+<li>(추가) redis 원리/개념</li>
+<li>(추가) redis, 맴캐시 차이 -> 왜 redis를 썼는지 위주로</li>
+<li>(추가) 캐싱의 개념</li>
+
+</div>
+</details>
+
+<details>
+<summary>기타< 기술, 개선사항, 프로젝트 설명때 말한 기능(인증시스템, 랭킹 시스템)></summary>
+<div markdown="1">
+회원정보 관리 / JWT/Security
+
+검색 기능
+
+DB들 차이(RDB VS NOSQL)
+
+-왜 RDB를 썼는지?
+-NOSQL은 어떨때 쓸까요?
+-MYSQL을 왜 썼는지? 다른 선택지? ->
+-트랜잭션 개념
+-REST full API란?
+-에자일방식
+- MSA 아키텍쳐
+</div>
+</details>
