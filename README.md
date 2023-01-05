@@ -561,18 +561,18 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <details>
 <summary>기타< 기술, 개선사항, 프로젝트 설명때 말한 기능(인증시스템, 랭킹 시스템)></summary>
 <div markdown="1">
-회원정보 관리 / JWT/Security
+<li>회원정보 관리 / JWT/Security</li>
 
-검색 기능
+<li>검색 기능</li>
 
-DB들 차이(RDB VS NOSQL)
+<li>DB들 차이(RDB VS NOSQL)</li>
 
--왜 RDB를 썼는지?
--NOSQL은 어떨때 쓸까요?
--MYSQL을 왜 썼는지? 다른 선택지? ->
--트랜잭션 개념
--REST full API란?
--에자일방식
-- MSA 아키텍쳐
+<li>왜 RDB를 썼는지?</li>
+<li>NOSQL은 어떨때 쓸까요?</li>
+<li>MYSQL을 왜 썼는지? 다른 선택지? -></li>
+<li>트랜잭션 개념</li>
+<li>REST full API란?</li>
+<li>에자일방식</li>
+<li>MSA 아키텍쳐</li>
 </div>
 </details>
