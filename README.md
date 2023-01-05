@@ -406,10 +406,25 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <summary>최근에 개발공부를 하고있나요?</summary>
 <div markdown="1">
 
-안녕
+<p>어떤 매개체</p>
+<p>기획, </p>
+<p>책보면서 저희가 했던 프로젝트랑 연계해서 공부하고 있다.</p>
 
 </div>
 </details> 
+ 
+<details>
+<summary>개발에 어떤 흥미가 있나요?</summary>
+<div markdown="1">
+
+<p>개발공부 내용</p>
+<p>자바로 어디까지 할 수 있는지 궁금하다.</p>
+<p>IOT도 생각해보고 true/false 값 줘서 만드는</p>
+
+</div>
+</details> 
+ 
+ 
  
 # 프로젝트
 <details>
