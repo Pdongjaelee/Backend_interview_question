@@ -402,6 +402,15 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </div>
 </details>
  
+<details>
+<summary>최근에 개발공부를 하고있나요?</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details> 
+ 
 # 프로젝트
 <details>
 <summary>프로젝트에 대해 설명해 주세요</summary>
@@ -418,7 +427,7 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <summary>프로젝트에서 본인이 맡은 역할은 무엇인지 설명해 주세요.</summary>
 <div markdown="1">
 
-안녕
+페이지별 설명/ 주요 기술들 설명 역할
 
 </div>
 </details>  
@@ -500,5 +509,15 @@ CORS는 교차출처 리소스 공유로 출처가 다른 자원들을 공유할
 저희는 백에서 security를 이용해 cors를 허용해줬습니다.
 
 </div>
+</details>
+
+<details>
+<summary>프로젝트에서 기술 외적인 문제가 있었나요?</summary>
+<div markdown="1">
+
+프론트-디자이너 다툼 -> 백엔드가 해결 -> 일정조율/ 각자 포지션별 의견수렴 조율
+
+</div>
 </details>  
+ 
  
