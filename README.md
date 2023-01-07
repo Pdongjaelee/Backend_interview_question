@@ -376,6 +376,14 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </div>
 </details>
 
+<details>
+<summary>트랜잭션에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
 
 
 <br>
@@ -588,21 +596,45 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 
 </div>
 </details>
+ 
+<details>
+<summary>MYSQL(RDB)을 왜 사용하셨나요?</summary>
+<div markdown="1">
+<p>저희가 사용한 MYSQL은 RDB입니다.</p>
+<p>저희 프로젝트 같은 경우 다양한 산들과 유저들의 인증 데이터가 중복이 배제되어야 하고 엔티티 간에 관계를 정의해야합니다.</p>
+<p>또한 복잡한 조건을 주어 검색을 하는 기능들이 있기에 SQL을 사용해 데이터를 가져와 줄 RDB인 MYSQL을 사용했습니다.</p>
+</div>
+</details>
+ 
+<details>
+<summary>RDB중에서도 MYSQL을 사용한 이유가 있나요? 혹시 다른 선택지는 있나요? -</summary>
+<div markdown="1">
+<p>MYSQL은 일단 다른 RDB에 비해 빠르고 안정적이며 사용하기 쉽다.</p>
+<p>고사양을 요구하지 않으며 무료입니다.</p>
+<p>웹환경에 맞게 설계되어 있기 때문에 웹 서비스를 구현하는 저희 프로젝트에서는 MYSQL을 선택했습니다.</p>
+<br>
+<p>다른 RDB로는  Maria DB, MS-SQL 등이 있습니다.</p>
+<p>일단 처음 RDB구현에 MYSQL을 사용한 이유는</p>
+<p>가장 대중적인 DB이다 보니 많은 유저 경험과 레퍼런스가 있어 처음 구현과 오류 해결에 더 유리하다 판단되어 사용하게 되었습니다.</p>
+<p>추후 RDB구현에 좀 더 미래 지향적인 RDB를 사용한다면 Maria DB도 사용해 보려고합니다.</p>
+<p>Maria DB도 MySQL을 포크한 서비스라서 어떻게 보면 많은 유저 경험과 레퍼런스가 있습니다.</p>
+<p>또한 오픈소스이기 떄문에 기업에 인수된 MySQL보다 정책적인 면에서 더 안정적이고 업데이트가 활발할거 같습니다.</p>
+</div>
+</details>
+ 
+<details>
+<summary>REST full API에 대한 개념과 프로젝트에 어떻게 적용하셨는지 설명해주세요.</summary>
+<div markdown="1">
 
+</div>
+</details>
+
+  
 <details>
 <summary>기타< 기술, 개선사항, 프로젝트 설명때 말한 기능(인증시스템, 랭킹 시스템)></summary>
 <div markdown="1">
 <li>회원정보 관리 / JWT/Security</li>
-
 <li>검색 기능</li>
-
-<li>DB들 차이(RDB VS NOSQL)</li>
-
-<li>왜 RDB를 썼는지?</li>
-<li>NOSQL은 어떨때 쓸까요?</li>
-<li>MYSQL을 왜 썼는지? 다른 선택지? -></li>
-<li>트랜잭션 개념</li>
-<li>REST full API란?</li>
 <li>에자일방식</li>
 <li>MSA 아키텍쳐</li>
 </div>
