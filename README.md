@@ -238,7 +238,14 @@ NOSQL
 
 </div>
 </details>    
- 
+
+<details>
+<summary>외래키의 개념에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>
  
 <br>
 
@@ -282,6 +289,15 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 </div>
 </details> 
+
+<details>
+<summary>트랜잭션에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
  
 <br>
 
@@ -377,14 +393,13 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </details>
 
 <details>
-<summary>트랜잭션에 대해서 설명해주세요.</summary>
+<summary>MSA 아키텍쳐에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
 안녕
 
 </div>
 </details>
-
 
 <br>
 
@@ -567,9 +582,6 @@ CORS는 교차출처 리소스 공유로 출처가 다른 자원들을 공유할
 
 필터 기능을 구현하려 할때 기존에 JPA만을 가지고 구현을 하려했으나 복잡한 조건을 동적 처리하는 기능이다 보니
 JPA로는 코드가 너무 길고 복잡해지는 문제가 생겼습니다.
-<li>(추가) JPA란?<li>
-<li>(추가) ORM란?<li>
-<li>(추가) 더티 체킹?<li>
 
 <br>
 
@@ -638,6 +650,5 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <li>회원정보 관리 / JWT/Security</li>
 <li>검색 기능</li>
 <li>에자일방식</li>
-<li>MSA 아키텍쳐</li>
 </div>
 </details>
