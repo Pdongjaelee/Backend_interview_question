@@ -178,7 +178,7 @@
 </details>
 
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary>Spring Bean에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
 안녕
@@ -186,6 +186,23 @@
 </div>
 </details>
 
+<details>
+<summary>Spring Bean 생성과정에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
+
+<details>
+<summary>DI 종류는 어떤것이 있고, 이들의 차이는 무엇인가요?</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
 <br>
 
 ## 데이터베이스
@@ -256,8 +273,15 @@ NOSQL
 <details>
 <summary>Redis, Memcached 의 차이에 대해 설명해주세요.</summary>
 <div markdown="1">
-
-
+<p>Redis, Memcached는 둘다 In-Memory 형태의 NoSQL입니다.</p>
+<p>Redis, Memcached의 차이를 비교하면 Redis가 더 많은 기능을 제공하므로 Redis의 추가적인 기능으로 설명할 수 있습니다.</p>
+<p>Memcached가 별도의 데이터 타입 없이 문자열만 저장한다면, Redis는 String, Hash, List 등 다양한 자료 구조를 제공합니다.</p>
+<p>Redis에서 다양한 데이터형의 도움을 받을 수 있는 반면, 동일한 기능을 Memcached로 하려면 앱에서 직접 개발해야 하는 경우가 발생합니다.</p>
+<br>
+<p>둘의 가장 큰 차이는 데이터를 저장할 수 있는지의 여부입니다.</p>
+<p>Redis는 RDB 기반으로 데이터를 저장할 수 있는 기능이 있는 반면, Memcached는 들고 있는 데이터를 저장할 수 있는 기능이 없습니다.</p>
+<p>Memcached는 캐시로서의 기능을 수핼할 수 밖에 없는 반면, Redis는 캐시로도 쓰일 수 있고, 데이터 저장소로도 쓰일 수 있습니다.</p>
+<p>프로젝트에서 데이터를 RDB 기반으로 관리하고 있다면, Redis만 써야합니다.</p>
 </div>
 </details>   
 
@@ -271,6 +295,14 @@ NOSQL
 
 <details>
 <summary>외래키의 개념에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
+<details>
+<summary>수직적 확장, 수평적 확장에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
 
@@ -363,6 +395,18 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 </div>
 </details>
+
+<details>
+<summary>싱글 스레드와 멀티스레드에 대해서 설명해주세요.</summary>
+<div markdown="1">
+<p>우리가 프로그램을 실행하는 상태를 프로세스라고 합니다.</p>
+<p>스레드는 그 프로세스 내에서 실제로 작업을 수행하는 주체를 의미합니다.</p>
+<p>프로세스에서 한 개의 작업만 한다면 싱글 스레드이고, 한 개 이상의 작업을 한다면 멀티 스레드라고 합니다.</p>
+<p>예를 들면 크롬을 열어 게임만 다운로드 받고있으면 싱글 스레드입니다.</p>
+<p>그러다 검색도 하고 영상도 본다면 멀티 스레드인 것입니다.</p>
+</div>
+</details>
+
 
 <br>
 
