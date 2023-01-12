@@ -112,6 +112,13 @@
 </details>  
 
 <details>
+<summary>>객체지향(oop)의 장단점에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>   
+
+<details>
 <summary>객체지향(oop)의 solid 라는 개념에 대해 설명해주세요.</summary>
 <div markdown="1">
 
@@ -504,7 +511,7 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </details>
 
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary> CI/CD에 대하여 설명해주세요.</summary>
 <div markdown="1">
 
 </div>
@@ -548,9 +555,64 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 </div>
 </details> 
- 
- 
- 
+
+<details>
+<summary>성격의 장점과 단점에 대해 말해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details> 
+
+<details>
+<summary> 팀리더를 하셨는데, 하면서 어려우셨던 점과 어떻게 해결하셨는지 알려주세요.</summary>
+<div markdown="1">
+
+</div>
+</details> 
+
+<details>
+<summary> 입사를 하게 된다면 있었으면 하는 문화와 없었으면 하는 문화가 있을까요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 만약에 입사를 하게 되신다면 저희 회사에게 이득이 될 만한 일이 있을까요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 억대 연봉을 받는 개발자의 강점은 무엇일까요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 개발을 할 때 중요하다고 생각하는 3가지 말씀해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 개발자란 무엇이라고 생각하나요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 제일 자신있는 스택은 어떤 것인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<br> 
 # 프로젝트
 <details>
 <summary>프로젝트에 대해 설명해 주세요</summary>
