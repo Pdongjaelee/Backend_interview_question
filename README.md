@@ -178,9 +178,9 @@
 <details>
 <summary>DI란 무엇인지 설명해주시고 어떤 장단점이 있는지 설명해주세요.</summary>
 <div markdown="1">
-
-안녕
-
+<p>DI는 클래스 간에 의존성을 클래스 외부에서 주입하는 것을 말합니다.</p>
+<p>DI는 단일 적인 클래스 들 간에 결합이 되어있으면 변경 사항에 서로 영향을 많이 받는데 이런 문제점을 방지하기 위해 사용하는 개념입니다.</p>
+<p>DI를 사용함으로 클래스 레벨에서는 의존관계가 고정되지 않도록 하고 런타임 시에 관계를 동적으로 주입하도록 해줍니다.</p>
 </div>
 </details>
 
@@ -188,7 +188,10 @@
 <summary>Spring Bean에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
-안녕
+Spring Bean은 스프링 컨테이너에 의해 관리되는 자바 객체를 의미합니다.
+우리가 new 연산자로 어떤 객체를 생성했을 때 그 객체가 빈이 되는 것은 아닙니다.
+빈이 되는 객체는 ApplicationContext.getBean()으로 얻어질 수 있는 객체입니다.
+즉 Spring에서의 빈은 ApplicationContext가 알고있는 객체, 즉 ApplicationContext가 만들어서 그 안에 담고있는 객체를 의미합니다.
 
 </div>
 </details>
