@@ -187,21 +187,22 @@
 <details>
 <summary>Spring Bean에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
-Spring Bean은 스프링 컨테이너에 의해 관리되는 자바 객체를 의미합니다.
-우리가 new 연산자로 어떤 객체를 생성했을 때 그 객체가 빈이 되는 것은 아닙니다.
-빈이 되는 객체는 ApplicationContext.getBean()으로 얻어질 수 있는 객체입니다.
-즉 Spring에서의 빈은 ApplicationContext가 알고있는 객체, 즉 ApplicationContext가 만들어서 그 안에 담고있는 객체를 의미합니다.
-
+<p>Spring Bean은 스프링 컨테이너에 의해 관리되는 자바 객체를 의미합니다.</p>
+<p>우리가 new 연산자로 어떤 객체를 생성했을 때 그 객체가 빈이 되는 것은 아닙니다.</p>
+<p>빈이 되는 객체는 ApplicationContext.getBean()으로 얻어질 수 있는 객체입니다.</p>
+<p>즉, Spring에서의 빈은 ApplicationContext가 알고있는 객체, 즉 ApplicationContext가 만들어서 그 안에 담고있는 객체를 의미합니다.</p>
+<p>Spring에서는 Spring Bean을 얻기 위해  ApplicationContext.getBean() 와 같은 메소드를 사용하여 Spring 에서 직접 자바 객체를 얻어서 사욯합니다.</p>
 </div>
 </details>
 
 <details>
 <summary>Spring Bean 생성과정에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
-안녕
-
+<p>Spring Bean은 객체 생성 -> 의존 설정 -> 초기화 -> 사용 -> 소멸 순서의 라이프 사이클을 가집니다.</p>
+<p>@Component 어노테이션이 있으면 스프링 빈으로 자동 등록됩니다.</p>
+<p>또한, @Component를 포함하는 @Controller, @Service, @Repository 어노테이션도 스프링 빈으로 자동 등록됩니다.</p>
+<p>생성자에 @Autowired가 있으면 스프링이 연관된 객체를 스프링 컨테이너에 찾아서 넣어줍니다.</p>
+<p>이렇게 객체 의존관계를 외부에서 넣어주는 것을 의존성 주입(DI)라 합니다.</p>
 </div>
 </details>
 
