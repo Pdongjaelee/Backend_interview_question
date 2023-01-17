@@ -416,6 +416,15 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </div>
 </details>
 
+<details>
+<summary>HTTP와 HTTPS의 차이점에 대해서 설명해주세요.</summary>
+<div markdown="1">
+<p>HTTP와 HTTPS의 차이점은 SSL 인증서입니다.</p>
+<p>기존 HTTP는 서버에서 브라우저로 전송되는 정보가 암호화되지 않는 문제가 있습니다.</p>
+<p>즉, 데이터가 중간에 쉽게 도난당할 수 있습니다.</p>
+<p>HTTPS는 SSL 인증서를 통해 통신을 암호화해 HTTP의 보안 문제를 해결한 프로토콜입니다.</p>
+</div>
+</details>
 
 <br>
 
@@ -528,6 +537,24 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </div>
 </details>
 
+<details>
+<summary>싱클톤 패턴에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
+
+<details>
+<summary>싱클톤 패턴의 대표적인 예시에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
+
 # 인성면접 
 <details>
 <summary>개발자가 되기로 한 이유에 대해서 말씀해주실 수 있니요?</summary>
@@ -622,6 +649,20 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <p>JAVA입니다.</p>
 <p>최근까지 프로젝트에서 다뤘던 언어도 JAVA기반이고 JAVA 개발자가 되고 싶어 JAVA스터디도 진행했습니다.</p>
 <p>스터디와 개인 공부를 했던 JAVA가 제일 자신있는 스택입니다.</p>
+</div>
+</details>  
+
+<details>
+<summary> 다양한 개발 포지션이 있는데 백엔드를 선택하게 된 이유가 있나요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 본인이 생각하는 이상적인 개발 환경이 있나요?</summary>
+<div markdown="1">
+
 </div>
 </details>  
 
@@ -813,6 +854,14 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <p>RESTful하지 못한 경우라면 CRUD 기능을 모두 POST로만 처리하는 API가 있습니다.</p>
 </div>
 </details>
+
+<details>
+<summary>프로젝트에서 잘하지 못했다고 생각하는 부분이 있나요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
 
   
 <details>
