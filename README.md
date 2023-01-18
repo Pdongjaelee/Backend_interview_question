@@ -211,6 +211,15 @@
 
 </div>
 </details>
+ 
+<details>
+<summary>Spring에서 의존성 주입을 하는 방법은 어떤게 있을까요?</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details> 
 <br>
 
 ## 데이터베이스
@@ -225,6 +234,14 @@
 
 </div>
 </details>
+ 
+<details>
+<summary>정규화는 왜 중요할까요?</summary>
+<div markdown="1">
+
+</div>
+</details> 
+ 
  
 <details>
 <summary>모든 요소에 인덱스를 걸지 않는 이유에 대해 설명해주세요.</summary>
@@ -317,6 +334,21 @@ NOSQL
 </div>
 </details>
  
+<details>
+<summary>트랜잭션에 대해서 설명해주세요(4대 특징 포함).</summary>
+<div markdown="1">
+
+
+</div>
+</details> 
+ 
+<details>
+<summary>ERD를 구성할 때 중요한 점을 어떤걸까요?.</summary>
+<div markdown="1">
+
+
+</div>
+</details>  
 <br>
 
 ## JPA
@@ -366,6 +398,24 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 </div>
 </details>
+ 
+ <details>
+<summary>FetchType에서 즉시로딩과 지연로딩에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+FetchType.LAZY
+
+</div>
+</details>
+
+<details>
+<summary>JPA 연관관계 매핑 @OneToMany @ManyToOne @OneToOne @ManyToOne에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+FetchType.LAZY
+
+</div>
+</details> 
  
 <br>
 
@@ -633,7 +683,7 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </details>  
 
 <details>
-<summary> 개발을 할 때 중요하다고 생각하는 3가지 말씀해주세요.</summary>
+<summary> 개발을 할 때 중요하다고 생각하는 부분에 대해서 말씀해주세요.</summary>
 <div markdown="1">
 
 </div>
@@ -865,6 +915,19 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 </div>
 </details>
 
+<details>
+<summary>프로젝트에서 어떤 배포 방식을 사용했나요? /summary>
+<div markdown="1">
+
+</div>
+</details>
+ 
+<details>
+<summary>Nginx는 왜 사용했나요? /summary>
+<div markdown="1">
+
+</div>
+</details>
 
   
 <details>
