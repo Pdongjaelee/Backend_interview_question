@@ -916,14 +916,14 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 </details>
 
 <details>
-<summary>프로젝트에서 어떤 배포 방식을 사용했나요? /summary>
+<summary>프로젝트에서 어떤 배포 방식을 사용했나요? </summary>
 <div markdown="1">
 
 </div>
 </details>
  
 <details>
-<summary>Nginx는 왜 사용했나요? /summary>
+<summary>Nginx는 왜 사용했나요? </summary>
 <div markdown="1">
 
 </div>
