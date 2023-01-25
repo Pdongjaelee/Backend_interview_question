@@ -216,8 +216,23 @@
 <summary>Spring에서 의존성 주입을 하는 방법은 어떤게 있을까요?</summary>
 <div markdown="1">
 
-안녕
+의존관계에 있는 Bean을 주입하는 3가지 방법
+1) setter/getter 메서드
 
+2) Constructor
+
+3) @Autowired
+
+</div>
+</details> 
+
+<details>
+<summary>@Autowied에 대해서 설명해주세요.</summary>
+<div markdown="1">
+<p>@Autowied는 Spring 의존성 주입에서 사용되는 어노테이션입니다.</p>
+<p>Spring에서 Bean 인스턴스가 생성된 이후 @Autowired를 설정한 메서드가 자동으로 호출되고, 인스턴스가 자동으로 주입됩니다. </p>
+<p>즉, 해당 변수 및 메서드에 스프링이 관리하는 Bean을 자동으로 매핑해주는 개념입니다.</p>
+<p>클래스를 생성하고 Bean 생성자를 하나하나 만들지 않고 클래스의 필드를 파라미터로 사용하는 생성자를 만들 때 @Autowired를 붙여줍니다.</p>
 </div>
 </details> 
 <br>
