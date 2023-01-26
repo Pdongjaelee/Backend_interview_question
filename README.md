@@ -114,7 +114,8 @@
 <details>
 <summary>>객체지향(oop)의 장단점에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
+객체지향의 장점은 
+상속을 통해 프로그래밍 시 코드의 재사용을 높일 수 있습니다.
 </div>
 </details>   
 
