@@ -189,6 +189,14 @@
 </div>
 </details>
 
+<details>
+<summary>equals == 차이에 대해서 설명해주세요.</summary>
+<div markdown="1">
+<p>equals는 비교하고자 하는 대상의 값 자체를 비교할 수 있고, == 연산자는 비교하고자 하는 대상의 주소값을 비교합니다.</p>
+<p>==는 주소값이 같은지 아닌지 비교하는 것이고, equals()연산도 내부적으로 주소값을 비교하지만 String클래스에서는 equals()를 재정의해 내용을 비교하게 되어있습니다.</p>
+</div>
+</details>
+
 ## Spring
 <details>
 <summary>DI란 무엇인지 설명해주시고 어떤 장단점이 있는지 설명해주세요.</summary>
