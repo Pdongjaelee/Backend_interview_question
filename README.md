@@ -422,6 +422,14 @@ NOSQL
 
 </div>
 </details>  
+
+<details>
+<summary>dml/ddl/dcl 에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>  
 <br>
 
 ## JPA
@@ -636,10 +644,10 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 ## 보안/암호
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary> 인증과 인가의 차이에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
-안녕
+
 
 </div>
 </details>
@@ -1004,6 +1012,19 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <summary>프로젝트에서 잘하지 못했다고 생각하는 부분이 있나요?</summary>
 <div markdown="1">
 
+</div>
+</details>
+
+<details>
+<summary>리펙토링을 했던 경험에 대해서 말해주세요.</summary>
+<div markdown="1">
+클린코드를 위해 ~~~~
+</div>
+</details>
+
+<details>
+<summary>유저의 피드백을 반영해 서비스를 개선했던 경험에 대해서 설명해주세요.</summary>
+<div markdown="1">ㅊ
 </div>
 </details>
 
