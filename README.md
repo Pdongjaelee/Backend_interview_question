@@ -34,6 +34,13 @@
 </details>
 
 <details>
+<summary>GC(가비지 컬렉터)가 무엇인지, 필요한 이유는 무엇인지, 동작방식에 대해 설명해주세요.</summary>
+<div markdown="1">
+참조되지 않은 객체 메모리 정리~~
+</div>
+</details>
+
+<details>
 <summary>Java 실행방식에 대해 설명해주세요</summary>
 <div markdown="1">
 <p>개발자가 .java로 되어있는 파일을 만들어 코드를 작성합니다. 그 파일에 작성한 코드가 자바 소스 코드가 됩니다.</p>
@@ -628,6 +635,20 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 </details>
 
 <details>
+<summary>시간복잡도가 좋다면 수행시간이 반드시 빠른 것 일까요?</summary>
+<div markdown="1">
+입력된 값에 따라서 반드시 빠른것은 아니다. ~~
+</div>
+</details>
+
+<details>
+<summary>시간 복잡도와 성능이 중요한 개발은 어떤 부분이 있을까요?</summary>
+<div markdown="1">
+대용량의 데이터를 다루거나 정해진 양의 데이터를 불러오는 작업을 할 때 중요하다.
+</div>
+</details>
+
+<details>
 <summary>MSA 아키텍쳐에 대해서 설명해주세요.</summary>
 <div markdown="1">
 <p>(MAS)마이크로 서비스 아키텍처는 하나의 큰 애플리케이션을 여러 개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 아키텍처입니다.</p>
@@ -793,7 +814,7 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <details>
 <summary> 개발을 할 때 중요하다고 생각하는 부분에 대해서 말씀해주세요.</summary>
 <div markdown="1">
-
+가독성, 확장성 ~~성 등등
 </div>
 </details>  
 
@@ -803,6 +824,14 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 더 나은 삶을 정확한 로직으로 구현할 수 있는 
 </div>
 </details>  
+
+<details>
+<summary> 같이 일하고 싶어하는 개발자란 무엇이라고 생각하나요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
 
 <details>
 <summary> 제일 자신있는 스택은 어떤 것인가요?</summary>
