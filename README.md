@@ -225,6 +225,33 @@
 </details>
 
 <details>
+<summary>Final 키워드의 용도에 대해 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
+<details>
+<summary>Call by Reference와 Call by Value의 차이에 대해서 설명해주세요. + 자바에서 사용하는 방식은?</summary>
+<div markdown="1">
+자식 -> 부모 업
+
+부모 -> 자식 다운
+</div>
+</details>
+
+<details>
+<summary>다운 캐스팅과 업 캐스팅의 차이에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+
+
+
+<details>
 <summary>equals == 차이에 대해서 설명해주세요.</summary>
 <div markdown="1">
 <p>equals는 비교하고자 하는 대상의 값 자체를 비교할 수 있고, == 연산자는 비교하고자 하는 대상의 주소값을 비교합니다.</p>
@@ -304,6 +331,13 @@
 <p>@Transactional을 메소드 또는 클래스에 명시하면,</p>
 <p>AOP를 통해 Target이 상속하고 있는 인터페이스 또는 Target 객체를 상속한 Proxy 객체가 생성되며,</p>
 <p>Proxy 객체의 메소드를 호출하면 Target 메소드 전 후로 트랜잭션 처리를 수행합니다.</p>
+</div>
+</details> 
+
+<details>
+<summary> Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
+<div markdown="1">
+
 </div>
 </details> 
 <br>
@@ -408,6 +442,15 @@ NOSQL
 
 </div>
 </details>    
+
+<details>
+<summary>캐시의 지역성에 대해 설명해보세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
 
 <details>
 <summary>기본키의 개념에 대해서 설명해주세요.</summary>
@@ -550,13 +593,30 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 
 ## 운영체제
 <details>
-<summary>토글 접기/펼치기</summary>
+<summary> 비선점방식과 선점방식에 대해 설명해주세요.</summary>
 <div markdown="1">
 
-안녕
 
 </div>
 </details>
+
+<details>
+<summary> 바이트 코드와 기계어의 차이에 대해 설명해주세요.</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
+<details>
+<summary> context switching이란?</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
+
 
 <br>
 
@@ -599,6 +659,41 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <p>기존 HTTP는 서버에서 브라우저로 전송되는 정보가 암호화되지 않는 문제가 있습니다.</p>
 <p>즉, 데이터가 중간에 쉽게 도난당할 수 있습니다.</p>
 <p>HTTPS는 SSL 인증서를 통해 통신을 암호화해 HTTP의 보안 문제를 해결한 프로토콜입니다.</p>
+</div>
+</details>
+
+<details>
+<summary> Thread 간의 데이터 공유와 Process 간의 데이터 공유의 공통점과 차이점을 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary> 스레드에 스택을 독립적으로 할당하는 이유는 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary> 비대칭키 또는 공개키 암호화 방식은 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary> HTTP METHOD 종류에 대해서 설명해주세요.</summary>
+<div markdown="1">
+GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
+</div>
+</details>
+
+<details>
+<summary> HTTP에서 상태유지(stateful)를 하는 방법을 설명해주세요.</summary>
+<div markdown="1">
+
 </div>
 </details>
 
@@ -762,6 +857,15 @@ JPA는 만들 수는 있지만 쿼리문 자체가 복잡해지고 구현이 어
 <p>요청이 들어올 때마다 매번 객체를 생성하지 않고, 이미 만들어진 객체를 공유하기 때문에 효율적인 사용이 가능합니다.</p>
 </div>
 </details>
+
+<details>
+<summary>소프트웨어 디자인과 소프트웨어 아키텍처의 차이는 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+
 
 # 인성면접 
 <details>
