@@ -1015,6 +1015,55 @@ DB를 직접 다룰 수 있고 로직을 통해 서비스를 구현할 수 있�
 </div>
 </details>  
 
+<details>
+<summary> 현재 관련자격증이 하나도 없는데 관련 자격증 같은 것을 취득할 계획인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 본인은 비슷한 경력의 개발자 중 어느정도 실력이라고 생각하나요? 이에 대한 근거가 있을까요?? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 회사가 프론트, 백, DB의 역할이 나누어져 있지 않아 모든 일을 다 하게 될텐데 시킨다면 어떻게 할 건가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 직장인으로서 갖춰야할 자질이 무엇이라고 생각하나요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 우리 회사에서 이루고 싶은 것이 무엇이 있나요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 상사와의 의견충돌이 있을경우 어떻게 대처할 것 인가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 동아리나, 직장생활, 학교생활 중 가장 좋았던 기억과 안좋았던 기억은 무엇인가요?? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
 <br> 
 # 프로젝트
 <details>
