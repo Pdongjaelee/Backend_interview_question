@@ -227,17 +227,29 @@
 <details>
 <summary>String, StringBuilder, StringBuffer 에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
-안녕
-
+<p>JAVA에서 문자열을 다루는 대표적인 클래스로 String, StringBuffer, StringBuilder 가 있습니다.</p>
+<li>String과 StringBuffer/StringBuilder 클래스의 가장 큰 차이점은 String은 불변(immutable)의 속성을 갖는다는 점입니다.</li>
+<p>String 클래스는 불변하기 때문에 문자열을 수정한다면 그 시점에 새로운 String 인스턴스가 생성됩니다.</p>
+<p>String 클래스에 문자열 추가,수정,삭제 등의 연산을 많이 사용하면 힙메모리가 부족하여 성능에 영향을 끼치게 됩니다.</p>
+<br>
+<li>이를 해결하기 위해  가변(mutable)성을 가지는 StringBuffer / StringBuilder 클래스가 도입되었습니다.</li>
+<p>가변성을 가지기 때문에 .append() .delete() 등의 API를 이용하여 동일 객체내에서 문자열을 변경하는 것이 가능합니다.</p>
+<p>문자열의 추가,수정,삭제가 빈번하게 발생할 경우라면 String 클래스가 아닌 StringBuffer/StringBuilder를 사용해야 합니다.</p>
+<p>StringBuffer는 동기화를 지원하여 멀티 쓰레드 환경에서 주로 사용하합니다.</p>
+<p>StringBuilder는 동기화를 지원하지 않아 싱글 쓰레드 환경에서 주로 사용합니다</p>
 </div>
 </details>
 
 <details>
 <summary>Final 키워드의 용도에 대해 설명해주세요.</summary>
 <div markdown="1">
-
-
+<p>JAVA의 final 키워드는 변수, 메서드, 클래스에 사용될 수 있습니다.</p>
+<p>공통적으로 final 키워드는 무언가를 제한한다는 의미입니다.</p>
+<li>변수에 final을 붙이면 이 변수는 수정할 수 없다는 의미입니다.</li>
+<li>메서드에 final을 붙이면 overrid를 제한하게 됩니다.</li>
+<p>즉 상속 받은 클래스에서 해당 메서드를 수정해서 사용하지 못하도록 할 수 있는 것이 메서드에 final을 붙이는 것입니다.</p>
+<li>클래스에 final을 붙이면 상속 불가능 클래스가 됩니다.</li>
+<p>클래스 설계시 재정의를 불가능하게 사용하고 싶다면 final을 붙이는 것입니다.</p>
 </div>
 </details>
 
