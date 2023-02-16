@@ -314,6 +314,33 @@
 
 ## Spring
 <details>
+<summary>Spring Framwork에 대해 설명해주세요.</summary>
+<div markdown="1">
+스프링 프레임워크는 자바 개발을 편리하게 해주는 오픈소스 프레임워크입니다.
+경량 컨테이너로서 자바의 객체 생성, 소멸과 같은 라이프 사이클을 관리해줍니다.
+</div>
+</details>
+ 
+<details>
+<summary>Spring Boot와 Spring Framwork의 차이점에 대해 설명해주세요.</summary>
+<div markdown="1">
+가장 큰 차이점은 Auto Configuration의 차이인 것 같습니다. Spring은 프로젝트 초기에 다양한 환경설정을 해야 하지만,
+Spring Boot는 설정의 많은 부분을 자동화하여 사용자가 편하게 스프링을 활용할 수 있도록 돕습니다.
+spring boot starter dependency만 추가해주면 설정은 끝나고, 내장된 톰캣을 제공해 서버를 바로 실행할 수 있습니다.
+</div>
+</details>
+ 
+<details>
+<summary>Spring MVC에 대해 설명해주세요.</summary>
+<div markdown="1">
+MVC는 Model, View, Controller의 약자이며, 각 레이어간 기능을 구분하는데 중점을 둔 디자인 패턴입니다.
+Model은 데이터 관리 및 비즈니스 로직을 처리하는 부분이며, (DAO, DTO, Service 등)
+View는 비즈니스 로직의 처리 결과를 통해 유저 인터페이스가 표현되는 구간입니다. (html, jsp, tymeleaf, mustache 등 화면을 구성하기도 하고, Rest API로 서버가 구현된다면 json 응답으로 구성되기도 한다.)
+Controller는 사용자의 요청을 처리하고 Model과 View를 중개하는 역할을 합니다. Model과 View는 서로 연결되어 있지 않기 때문에 Controller가 사이에서 통신 매체가 되어줍니다.
+</div>
+</details> 
+ 
+<details>
 <summary>DI란 무엇인지 설명해주시고 어떤 장단점이 있는지 설명해주세요.</summary>
 <div markdown="1">
 <p>DI는 클래스 간에 의존성을 클래스 외부에서 주입하는 것을 말합니다.</p>
