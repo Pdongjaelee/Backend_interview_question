@@ -301,8 +301,19 @@
 </div>
 </details>
 
+<details>
+<summary>자바의 한계가 어떤게 있었나요?</summary>
+<div markdown="1">
 
+</div>
+</details>
 
+<details>
+<summary>객체지향의 예시를 들어주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>
 
 <details>
 <summary>equals == 차이에 대해서 설명해주세요.</summary>
@@ -1013,6 +1024,14 @@ GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
 </div>
 </details>
 
+<details>
+<summary>동기와 비동기를 비교하여 설명해주실 수 있을까요?</summary>
+<div markdown="1">
+동기는 요청과 응답이 동시에 일어난다는 의미이고, 비동기는 요청과 응답이 동시에 일어나지 않는다를 의미합니다.
+동기는 설계가 매우 간단하고 직관적이지만 결과가 주어질 때까지 멈춰있는 상태로 대기해야 하는 단점이 있습니다.
+비동기는 동기보다 설계가 복잡하지만 결과가 주어지는데 시간이 걸려도 그 동안 다른 작업을 할 수 있어 자원을 효율적으로 사용할 수 있습니다. 
+</div>
+</details>
 
 
 # 인성면접 
