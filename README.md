@@ -1215,6 +1215,56 @@ DB를 직접 다룰 수 있고 로직을 통해 서비스를 구현할 수 있�
 </div>
 </details>  
 
+<details>
+<summary> 스터디는 어떤식으로 진행하는 편인가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 같이 일하고 싶은/싫은 스타일의 사람은 누구인가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 커뮤니케이션에 있어서 자신의 노하우는? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 같이 일하는 사람 중에 너무 안맞는 사람이 있으면 어떻게 할 것인가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 열심히 했는데 성과가 안나왔던 적이 있나요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 가이드라인이 주어지지 않는다면 업무를 어떤식으로 처리할 것인가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+<details>
+<summary> 당신이 열심히 하는 모습을 누군가 부담스러워 한다면 어떻게 할 것인가요? </summary>
+<div markdown="1">
+
+</div>
+</details>  
+
+
 <br> 
 # 프로젝트
 <details>
@@ -1472,6 +1522,13 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <p>이 부분이 프록시 처리입니다.</p>
 <p>이제 코드를 수정해 신버전을 올릴때는 8082로 띄워주는데 신버전 배포 시 다운 타임 없이 들어온 요청을 8082로 돌려서 띄어주는 방식입니다.</p>
 <p>여기서 8081로 가던 포트를 빼고 8082로 돌리는 부분이 로드밸런싱 역할입니다.</p>
+</div>
+</details>
+
+<details>
+<summary>이 프로젝트를 지금 다시 수정한다면 어떤식으로 개선할 수 있을까요? </summary>
+<div markdown="1">
+
 </div>
 </details>
 
