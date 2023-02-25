@@ -863,9 +863,15 @@ NOSQL
 </details>
 
 <details>
-<summary> HTTP METHOD 종류에 대해서 설명해주세요.</summary>
+<summary> HTTP METHOD에 대해서 설명해주세요.</summary>
 <div markdown="1">
-GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
+<p>HTTP METHOD에는 get, post, put, delete 가 있습니다.</p>
+<p>get은 클라이언트에서 서버로 어떠한 리소스로부터 정보를 요청하기 위해 사용되는 method입니다.</p>
+<p>즉, 서버에서 어떤 데이터를 가져와서 보여줄 때, 값이나 내용, 상태 등을 바꾸지 않는 경우에 사용합니다.</p>
+<p>post는 리소스를 생성/ 업데이트하기 위해 서버에 데이터를 보내는 데 사용되는 method입니다.</p>
+<p>서버상의 데이터 값이나 상태를 바꾸기 위해서 사용합니다.</p>
+<p>주요 차이점으로는, get 요청은 캐시가 되나, post는 캐시 되지 않습니다.</p>
+<p>get은 브라우저에 기록되지만 post는 기록되지 않습니다.</p>
 </div>
 </details>
 
