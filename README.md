@@ -1060,6 +1060,17 @@ NOSQL
 </div>
 </details>
 
+<details>
+<summary>UML 다이어그램에 대해서 설명해주세요.</summary>
+<div markdown="1">
+<p>UML 다이어그램은 통합 모델링 언어를 사용하여 시스템 상호작용, 업무흐름, 시스템 구조, 컴포넌스 관계 등을 그린 도면입니다.</p>
+<p>UML 다이어그램을 사용하는 이유는 프로그래밍을 단순화시켜 표현하여 의사소통하기 좋고 또 대규모 프로젝트 구조의 로드맵을 만들거나 개발을 위한 시스템 구축에 기본을 마련합니다.</p>
+<p>종류로는 7가지 정도가 있습니다.</p>
+<p>Use Case 다이어그램, Activity 다이어그램, Sequence 다이어그램, Collaboration 다이어그램, Class 다이어그램, Compeonent 다이어그램, Deployment 다이어그램이 있습니다.</p>
+->다이어그램 설명 추후 
+</div>
+</details>
+
 
 # 인성면접 
 <details>
