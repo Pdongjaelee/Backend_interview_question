@@ -416,7 +416,7 @@ Controller는 사용자의 요청을 처리하고 Model과 View를 중개하는 
 <p>클래스를 생성하고 Bean 생성자를 하나하나 만들지 않고 클래스의 필드를 파라미터로 사용하는 생성자를 만들 때 @Autowired를 붙여줍니다.</p>
 </div>
 </details> 
-<br>
+
 
 <details>
 <summary> @Transactional의 동작 원리에 대해 설명해주세요.</summary>
@@ -439,7 +439,7 @@ Controller는 사용자의 요청을 처리하고 Model과 View를 중개하는 
 <p>다시 말해 개발자가 컨트롤러를 구현해두기만 하면 디스패처 서블릿이 알아서 적합한 컨트롤러로 위임을 해주는 구조입니다.</p>
 </div>
 </details> 
-<br>
+
 
 <details>
 <summary> AOP, Interceptor, Filter 의 차이점, Request가 들어올때 거치는 순서, 각 역할들의 장점을 설명해주실 수 있을까요?</summary>
@@ -450,15 +450,62 @@ Controller는 사용자의 요청을 처리하고 Model과 View를 중개하는 
 <p>AOP의 가장 큰 특징이자 장점은 중복 코드 제거, 재활용성의 극대화, 변화수용의 용이성이 좋다는 점입니다.</p>
 </div>
 </details> 
-<br>
+
+
 
 <details>
-<summary> Spring Security의 구조와 JWT 발급 과정에 대해 설명해주실 수 있을까요?</summary>
+<summary> Spring Security의 구조에 대해 설명해주실 수 있을까요?</summary>
+<div markdown="1">
+
+![security 구조](https://user-images.githubusercontent.com/111861625/222152172-453ee1a4-9370-42b5-aa3b-f4e0d314e36d.png)
+
+<li>Spring Security</li>
+<p>스프링 시큐리티는 어플리케이션의 보안(인증 및 권한)을 담당하는 프레임워크입니다.</p>
+<p>스프링 시큐리티를 사용하지 않으면 자체적으로 세션을 체크하며 redirect를 일일이 설정해줘야 합니다.</p>
+<p>예를 들면 로그인 완료 시 다음 화면으로 넘어가기 를 일일이 설정해줘야 하는 것 입니다.</p>
+<br>
+<li>AuthenticationFilter</li>
+<p>처음 Http 모든 요청에 대하여 AuthenticationFilter 가 인증 및 권한 부여 과정을 거친 후 Dispatcher Servlet으로 요청을 넘깁니다.</p>
+<p>요청에 대해서 spring은 filter의 attempAuthentication 메소드를 요청하는데, 다시 filter는 Token을 생성해서 저장되어 있는 authenticationManager에게 검증 요청을 합니다.</p>
+<p>authenticationFilter는 Authentication 인터페이스를 구현한 Token 객체를 통해 검증 과정을 거칩니다.</p>
+<br>
+<li>Authentication</li>
+<p>UsernamePasswordAuthenticationToken 은 Token 중에서 Principal-Credential 패턴을 반영한 객체이며 가장 기본적인 Authentication 구현체입니다.</p>
+<p>Token은 기본적으로 AbstractAuthenticationToken 을 상속받아 내부에 권한을 저장하는 authorities, 검증이 완료되었는지 판단하는 authenticated 상태를 저장하고 있습니다.</p>
+<p>최초에 검증되지 않은 Token을 AuthenticationManager 에게 넘기면 검증 결과에 따른 새로운 Token 을 반환해줍니다.</p>
+<li>AuthenticationManager</li>
+<p>이 AuthenticationManager 이라는 interface에서 요구하는 메소드는 authenticate뿐이고 구현체는 또 다시 AuthenticationProvider에게 검증을 위임합니다.</p>
+<br>
+<li>AuthenticationProvider</li>
+<p>AuthenticationProvider가 실제 검증을 수행하는 객체입니다.</p>
+<p>우선 클라이언트가 요청한 principal-credential 에서 principal 을 바탕으로 서버에 해당 유저 정보를 불러와야 합니다.</p>
+유저 정보를 불러오기 위해서는 다시 UserDetailsService 구현체를 사용하고 해당 구현체는 loadUserByUsername 메소드를 통해 UserDetails 객체를 반환하도록 강제하고 있습니다.</p>
+유저 정보를 불러왔다면 credential 검증을 수행하는데, 보안상 DB에 저장된 비밀번호는 암호화 되어있기 때문에 클라이언트로부터 받은 credential 또한 passwordEncoding 과정을 거친 후에 비교해야해 합니다.</p>
+<br>
+<li>UserdetailsService / UserDetails</li>
+<p>UserdetailsService 은 데이터베이스에서 유저 정보를 불러와서 UserDetails 객체를 만들어 돌려주는 역할을 합니다.</p>
+<p>여기서 UserDetails가 핵심인데, UserDetails 객체를 만드는 이유가 권한이 부여된 객체를 생성하도록 강제하기 떄문입니다.</p>
+<p>즉, Provider 는 UserDetails 구현체를 사용함으로써 해당 유저의 권한을 참조가능하게 됩니다.</p>
+<p>이러면 모든 검증 과정이 끝납니다.</p>
+<br>
+<p>호출한 순서의 반대로 Authentication 객체(여기서는 UsernamePasswordAuthenticationToken) 를 차례로 반환해줌으로써 인증 - 검증 - 권한부여 과정을 종료합니다.</p>
+<p>spring security 는 내부적으로 SecurityContext에 Authentication 객체를 저장합니다.</p>
+<p>filter 가 최종적으로 반납한 Authentication 객체를 저장하고, 인증이 필요한 순간에 꺼내서 권한을 확인하고 인가를 할지 말지를 결정합니다.</p>
+<br>
+<li>WebSecurityConfigurerAdapter</li>
+<p>그럼 또 다시 이역할을 수행하는 객체가 필요한데 그 객체가 WebSecurityConfigurerAdapter 객체입니다.</p>
+<p>security 시스템의 전반적인 설정(configuration)을 담당합니다.</p>
+<p>개발자는 이 객체의 수많은 오버로딩된 configure 메소드를 이용해 기본적으로 Filter 추가, URI 별 접근권한 설정, AuthenticationManager 가 검증을 요청할 Provider을 추가해줍니다.</p>
+</div>
+</details> 
+
+<details>
+<summary> JWT 발급 과정에 대해 설명해주실 수 있을까요?</summary>
 <div markdown="1">
 
 </div>
 </details> 
-<br>
+
 
 
 ## 데이터베이스
