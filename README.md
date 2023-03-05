@@ -657,6 +657,20 @@ NOSQL
 </details>
 
 <details>
+<summary>슈퍼키의 개념에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>후보키의 개념에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
 <summary>수직적 확장, 수평적 확장에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
@@ -921,7 +935,10 @@ NOSQL
 <details>
 <summary> 비대칭키 또는 공개키 암호화 방식은 무엇인가요?</summary>
 <div markdown="1">
-
+<p>비대칭(=공개키 암호화 방식) 암호화 방식은 공개키를 사람들에게 모두 공개하는 방식입니다.</p>
+<p>아무나 키를 가지고 암호화를 수행할 수 있지만, 복호화를 하는 개인키는 본인만 가지고 있을 수 있습니다.</p>
+<p>자신만이 보관하는 비밀키를 이용하여 인증, 전자서명 등에 적용이 가능합니다.</p>
+<p>예시로는 RSA 암호화 방식이 있습니다.</p>
 </div>
 </details>
 
