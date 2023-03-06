@@ -659,14 +659,18 @@ NOSQL
 <details>
 <summary>슈퍼키의 개념에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
+<p>슈퍼키는 하나 이상의 속성들의 집합으로 이루어진 키입니다.</p>
+<p>슈퍼키는 유일성은 만족하지만, 최소성은 만족하지 않습니다.</p>
 </div>
 </details>
 
 <details>
 <summary>후보키의 개념에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
+<p>후보키는 유일성과 최소성을 만족하는 속성 or 속성들의 집합입니다.</p>
+<p>슈퍼키 중 최소성을 만족하는 것이 후보키가 됩니다.</p>
+<p>후보키(candidate key)는 기본키(primary key)로 사용 할 수 있으며, 후보키가 여러개일 경우에는 하나를 지정해서 사용합니다.</p>
+<p>(지정되지 않은 나머지 후보키 = 대체 키(alternate key))</p>
 </div>
 </details>
 
