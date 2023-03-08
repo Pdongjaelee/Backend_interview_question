@@ -504,10 +504,28 @@ Controller는 사용자의 요청을 처리하고 Model과 View를 중개하는 
 <details>
 <summary> JWT 발급 과정에 대해 설명해주실 수 있을까요?</summary>
 <div markdown="1">
+<p>jwt 발급은 보통 로그인 처리에서 많이쓰입니다.</p>
+<p>사용자가 아이디와 패스워드를 입력하여 로그인합니다.</p>
+<p>그러면 서버는 시크릿 키를 통해 접근 토큰(access token)을 발급해주고 사용자에게 jwt가 전달됩니다.</p>
+<p>로그인이 필요한 API 호출 시 헤더에 JWT를 담아 전송합니다.</p>
+<p>서버에서 JWT 서명을 확인하고 시크릿 키로 JWT를 디코드하여 사용자 정보를 획득합니다.</p>
+<p>서버에서 유저를 인식하고 요청 사항에 응답해주면 해당 API를 호출할 수 있습니다.</p>
+</div>
+</details> 
+
+<details>
+<summary> JWT 구조에 대해 설명해주실 수 있을까요?</summary>
+<div markdown="1">
 
 </div>
 </details> 
 
+<details>
+<summary> 세션방식과 토큰방식에 대해 설명해주실 수 있을까요?</summary>
+<div markdown="1">
+
+</div>
+</details> 
 
 
 ## 데이터베이스
