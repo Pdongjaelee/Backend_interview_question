@@ -1194,7 +1194,13 @@ NOSQL
 <p>Business layer에서 필요한 데이터를 생성, 수정, 읽기 등을 처리하여 실제로 데이터베이스에서 데이터를 저장, 수정, 읽어 들이기를 하는 역할을 합니다.</p>
 </div>
 </details>
-
+ 
+<details>
+<summary> DDD(Domain-Driven Design) 또는 도메인 주도 설계에 대해서 설명해주세요.</summary>
+<div markdown="1">
+ 
+</div>
+</details>
 
 <br>
 
