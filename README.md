@@ -1176,20 +1176,20 @@ NOSQL
 <p>각각의 레이어는 오직 자기보다 하위에 있는 레이어에만 의존합니다.</p>
 <p>레이어드 아키텍처는 보통 presentation layer, business layer, persistence layer 3개의 레이어가 존재합니다.</p>
 
-<li><Presentation layer></li>
+<li> <Presentation layer> </li>
 <p>Presentation layer는 해당 시스템을 사용하는 사용자 혹은 클라이언트 시스템과 직접적으로 연결되는 부분입니다.</p>
 <p>웹사이트에서는 UI부분에 해당하고 백엔드 API에서는 엔드포인트 부분에 해당합니다.</p>
 <p>그러므로 Presentation layer에서 API의 엔드포인트들을 정의하고 전송된 HTTP 요청(request)를 읽어 들이는 로직을 구현합니다.</p>
 <p>하지만 그 이상의 역할은 담당하지 않습니다.</p> 
 <p>실제 시스템이 구현하는 비즈니스 로직은 다음 레이어로 넘기게 됩니다.</p>
 
-<li><Business layer></li>
+<li> <Business layer> </li>
 <p>Business layer라는 이름 그대로 비즈니스 로직을 구현하는 부분입니다.</p> 
 <p>실제 시스템이 구현해야하는 로직을 이 레이어에서 구현하게 됩니다.</p>
 <p>백엔드 API에서는  Presentation layer에서 전송된 요청을 읽어들여 요청에 맞게 동작하는 로직을 구현하면 됩니다.</p>
 <p>예를 들어 회원가입 요청 시 필수적인 요소들이 다 포함되어 있지 않으면 거부한다던가 하는 로직 등이 비즈니스 로직이며, Buisiness layer에서 구현하게 됩니다.</p>
 
-<li><Persistence layer></li>
+<li> <Persistence layer> </li>
 <p>Persistence layer는 데이터베이스와 관련된 로직을 구현하는 부분입니다.</p>
 <p>Business layer에서 필요한 데이터를 생성, 수정, 읽기 등을 처리하여 실제로 데이터베이스에서 데이터를 저장, 수정, 읽어 들이기를 하는 역할을 합니다.</p>
 </div>
