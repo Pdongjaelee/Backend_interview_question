@@ -1206,6 +1206,13 @@ NOSQL
 </div>
 </details>
 
+<details>
+<summary> 모놀로식 아키텍처에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>
+
 <br>
 
 ## 보안/암호
