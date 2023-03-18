@@ -886,6 +886,13 @@ NOSQL
 </div>
 </details> 
  
+<details>
+<summary>JPA와 MyBatis의 차이에 대해서 설명해주세요.</summary>
+<div markdown="1">
+
+</div>
+</details>  
+ 
 <br>
 
 ## 운영체제
