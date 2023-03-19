@@ -889,7 +889,13 @@ NOSQL
 <details>
 <summary>JPA와 MyBatis의 차이에 대해서 설명해주세요.</summary>
 <div markdown="1">
-
+<p>MyBatis는 java에서 SQL Mapper를 지원해주는 프레임워크입니다.</p>
+<p>MyBatis는 java 클래스 코드와 직접 작성한 SQL 코드를 Mapping 시켜주어야 합니다.</p>
+<p>반면 현재 많이 사용하는 JPA와 같은 ORM 기술은 객체가 DB에 연결되기 때문에 SQL을 직접 작성하지 않고 표준 인터페이스 기반으로 처리하는 차이가 있습니다.</p>
+<p>MyBatis는 쿼리를 그대로 사용하기에 복잡한 Join, 튜닝 등을 좀 더 수월하게 작성 가능합니다.</p>
+<p>SQL의 세부적인 내용 변경 시 좀 더 간편하며 동적 쿼리 사용 시 JPA보다 간편하게 구현 가능합니다.</p>
+<p>그러나 데이터 베이스 설정 변경 시 수정할 부분이 너무 많고 Oracle의 페이징 쿼리를 MySQL에서 사용이 불가능합니다.</p>
+<p>그리고 JPA의 기본적인 CRUD 자동화, 엔티티에 맞는 테이블 생성 등 다양한 장점이 MyBatis에는 없습니다.</p>
 </div>
 </details>  
  
