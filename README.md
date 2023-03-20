@@ -898,6 +898,14 @@ NOSQL
 <p>그리고 JPA의 기본적인 CRUD 자동화, 엔티티에 맞는 테이블 생성 등 다양한 장점이 MyBatis에는 없습니다.</p>
 </div>
 </details>  
+
+<details>
+<summary>Hibernate에 대해서 설명해주세요.</summary>
+<div markdown="1">
+<p> </p>
+
+</div>
+</details>  
  
 <br>
 
