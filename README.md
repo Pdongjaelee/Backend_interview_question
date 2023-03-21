@@ -1255,7 +1255,7 @@ NOSQL
 </details>
 
  <details>
-<summary>  아키텍처에 대해서 설명해주세요.</summary>
+<summary> 분산형 아키텍처에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
 </div>
