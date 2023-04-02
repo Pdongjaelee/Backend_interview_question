@@ -1960,7 +1960,7 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <details>
 <summary>기타< 기술, 개선사항, 프로젝트 설명때 말한 기능(인증시스템, 랭킹 시스템)></summary>
 <div markdown="1">
-<li>회원정보 관리 / JWT/Security</li>
-<li>검색 기능</li>
+
+
 </div>
 </details>
