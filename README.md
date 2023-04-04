@@ -1826,10 +1826,6 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 <details>
 <summary>프로젝트에서 성능을 개선한 경험이 있나요?</summary>
 <div markdown="1">
-태그 조회할 때 redis 성능 개선 수치 대략적으로 설명
-<li>(추가) redis 원리/개념</li>
-<li>(추가) redis, 맴캐시 차이 -> 왜 redis를 썼는지 위주로</li>
-<li>(추가) 캐싱의 개념</li>
 
 </div>
 </details>
