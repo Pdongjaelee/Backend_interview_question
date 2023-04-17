@@ -1899,12 +1899,6 @@ swap 메모리 설정을 해줘서 신버전 업데이트때도 서버가 다운
 </details>
 
 <details>
-<summary>s3와 route53 사용 경험에 대해서 설명해주세요.</summary>
-<div markdown="1">ㅊ
-</div>
-</details>
-
-<details>
 <summary>인증포인트, 뱃지시스템, 랭킹시스템을 구현하신 방식에 대해서 설명해주세요.</summary>
 <div markdown="1">
 <p>게임적인 요소인 인증,뱃지, 랭킹포인트는 서로 다 연결되어 있는 시스템입니다.</p>
