@@ -45,9 +45,6 @@
 <p>힙 영역은 메모리 공간이 동적으로 할당됩니다.</p>
 </div>
 </details>
-
-
-
 <details>
 <summary>GC(가비지 컬렉터)가 무엇인지, 필요한 이유는 무엇인지, 동작방식에 대해 설명해주세요.</summary>
 <div markdown="1">
