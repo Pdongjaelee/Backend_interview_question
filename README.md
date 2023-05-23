@@ -647,7 +647,6 @@ NOSQL
 <summary>Redis의 작동원리 및 프로젝트에서 어떻게 사용했는지 설명해주세요.</summary>
 <div markdown="1">
 
-
 </div>
 </details>    
 
